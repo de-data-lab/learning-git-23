@@ -1,0 +1,14 @@
+<div class="banner">
+    <h1>Data Innovation Lab 2023-2024 Cohort</h1>
+    <h2>I'm a driver, I'm a winner. Things are gonna change, I can feel it.</h2>
+    <div class="cards">
+{% for page in site.pages %} 
+    {% if page.path contains 'profiles/' %}
+    <a class="card" href="{{page.url | relative_url}}">
+        {{page.title}}
+    </a>
+    {% endif %}
+{% endfor %}
+</div>
+</div>
+
