@@ -29,4 +29,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ---
 
 ## What are you reading/watching/cooking/building lately? 
-I love to cook ramen noodles, they are my favorite.
+Lorem ipsum dolor sit amet. 
