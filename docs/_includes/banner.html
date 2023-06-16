@@ -3,9 +3,9 @@
     <h2>A site for the Git intensive workshop</h2>
     <div class="cards">
         {% if page.title == "home" %}
-        <a class="card active" href="{{site.url}}">Home</a>
+        <a class="card active" href="{{site.baseurl}}/">Home</a>
         {% else %}
-        <a class="card" href="{{site.url}}">Home</a>
+        <a class="card" href="{{site.baseurl}}">Home</a>
         {% endif %}
 {% for profile in site.pages %} 
     {% if profile.path contains 'profiles/' %}

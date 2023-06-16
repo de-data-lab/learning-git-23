@@ -5,7 +5,7 @@ position: Data Engineer Fellow
 hometown: Peoria, Illinois
 linkedin: https://www.linkedin.com/feed/
 personal: https://techimpact.org # if you have a personal website
-image: /assets/headshots/example.png
+image: headshots/example.png
 --- 
 
 ## What are you most excited to learn or accomplish during your time at the Lab? 

@@ -5,7 +5,7 @@ position: Data Scientist Fellow
 hometown: Hometown, USA
 linkedin: https://www.linkedin.com/feed/ 
 personal: https://techimpact.org # personal website/portfolio/other link
-image: /assets/headshots/example.png
+image: headshots/example.png
 --- 
 
 ## What are you most excited to learn or accomplish during your time at the Lab? 
