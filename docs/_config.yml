@@ -19,9 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Data Innovation Lab Fellows 2023-2024 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  de-data-lab
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# github_username:  de-data-lab
+
+domain: de-data-lab.github.io
+url: https://de-data-lab.github.io
+baseurl: "/learning-git-23" # Repository name
 
 # Build settings
 # theme: minima
