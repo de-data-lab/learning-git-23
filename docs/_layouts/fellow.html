@@ -3,14 +3,14 @@
 <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="stylesheet" href="{{site.baseurl | prepend: site.url}}/assets/styles.css">
     <style>
         .fellow-img {
             height: 300px;
             width: 300px;
             background-position: center;
             background-size: cover;
-            background-image: url({{page.image}});
+            background-image: url("{{site.baseurl | prepend: site.url}}/assets/{{page.image}}");
             position: relative;
             animation: fadein 0.6s ease both;
         }
@@ -47,7 +47,7 @@
                         {% if page.linkedin %}
                         <li>
                             <a href="{{ page.linkedin }}" target="_blank">
-                                <img alt="Linkedin logo" src="/assets/LI-In-Bug.png"
+                                <img alt="Linkedin logo" src="{{site.baseurl | prepend: site.url}}/assets/LI-In-Bug.png"
                                     style="height: 40px; width: auto" />
                             </a>
                         </li>
@@ -55,7 +55,7 @@
                         {% if page.personal %}
                         <li>
                             <a href="{{ page.personal }}" target="_blank">
-                                <img alt="Browser with a person icon inside of it" src="/assets/personal-website.svg"
+                                <img alt="Browser with a person icon inside of it" src="{{site.baseurl | prepend: site.url}}/assets/personal-website.svg"
                                     style="height: 50px; width: auto" />
                             </a>
                         </li>
@@ -68,12 +68,12 @@
                         <h2>{{ page.title }}</h2>
                         <div class="bio-cards">
                             <div class="position">
-                                <img src="/assets/noun-job-3266616.svg" style="display:inline-block" height="15"
+                                <img src="{{site.baseurl | prepend: site.url}}/assets/noun-job-3266616.svg" style="display:inline-block" height="15"
                                     width="auto" />
                                 <h3>{{ page.position }}</h3>
                             </div>
                             <div class="location">
-                                <img src="/assets/noun-home-5793750.svg" style="display:inline-block" height="15"
+                                <img src="{{site.baseurl | prepend: site.url}}/assets/noun-home-5793750.svg" style="display:inline-block" height="15"
                                     width="auto" />
                                 <h3>{{ page.hometown }}</h3>
                             </div>
