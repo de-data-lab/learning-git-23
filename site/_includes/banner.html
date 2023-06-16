@@ -1,0 +1,25 @@
+<div class="banner">
+    <h1>Data Innovation Lab 2023-2024 Cohort</h1>
+    <h2>I'm a driver, I'm a winner. Things are gonna change, I can feel it.</h2>
+    <div class="cards">
+        {% if page.title == "home" %}
+        <a class="card active" href="{{site.url}}">Home</a>
+        {% else %}
+        <a class="card" href="{{site.url}}">Home</a>
+        {% endif %}
+{% for profile in site.pages %} 
+    {% if profile.path contains 'profiles/' %}
+      {% if profile.url == page.url %}
+      <a class="card active" href="{{profile.url | relative_url}}">
+        {{profile.title}}
+    </a>
+      {% else %}
+    <a class="card" href="{{profile.url | relative_url}}">
+        {{profile.title}}
+    </a>
+    {% endif %}
+    {% endif %}
+{% endfor %}
+</div>
+</div>
+
