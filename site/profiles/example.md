@@ -1,11 +1,11 @@
 ---
 layout: fellow # don't change this! 
-title: John Smith 
+title: Example Fellow 
 position: Data Engineer Fellow 
 hometown: Peoria, Illinois
 linkedin: https://www.linkedin.com/feed/
-personal: / # if you have a personal website
-image: https://media.istockphoto.com/id/1132793417/photo/positivity-produces-success.jpg?s=612x612&w=0&k=20&c=Vak0Cam-GSVP0AnadPtC3yb_1K1O_IaLAgcwaoOg0HQ=
+personal: https://techimpact.org # if you have a personal website
+image: /assets/headshots/example.png
 --- 
 
 ## What are you most excited to learn or accomplish during your time at the Lab? 
