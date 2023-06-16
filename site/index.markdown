@@ -69,5 +69,35 @@ Next, fill out the rest of the template. After you're done, be sure to save the 
 
 ### 5. Commit and push your changes 
 
-You can make commits as you edit your profile or make one single commit after you're done. Once you're satisfied with your work, push your changes to the remote repository by running `git push`.   
+You can make commits as you edit your profile or make one single commit after you're done. After committing, it's a good idea to make sure your local branch is still up to date with `main` by running `git pull origin main`.  Once you're satisfied with your work, push your changes to the remote repository by running `git push`.   
 
+---
+
+### 6. Make a pull request 
+
+After a successful `git push`, go back to the repository on Github and you should see a message that looks like the below. Click **Compare and pull request**. 
+
+![Making a pull request](/assets/homepage/create-pr.png)
+
+Then, create your pull request (PR). You'll need to: 
+* Name your PR. It should start with a verb that describes what the PR accomplishes (e.g., "**add** profile page", "**fix** carousel component memory leak"). 
+* Inside the description box, add any additional context needed to understand what the PR does or why it is necessary.
+* Click **Reviewers** and then locate the username of your partner. 
+* Submit the PR. Your partner will receive a notification that your PR is awaiting their review. 
+
+--- 
+
+### 7. Review and merge another person’s pull request
+
+Once you receive an invitation to review another person’s pull request, go to the pull request and review the changes.
+
+1. Go to the **Files changed** tab. There should be two changed files (the `.md` file containing the new profile and the image file). 
+2. Review the code. If everything looks good, click **Review changes**, write any comments you have, check **Approve**, and then **Submit review**.
+3. After approving the changes, go back to the PR and click **Merge pull request**. This will merge your partner's changes into the main branch. 
+
+![Pull request review](https://user-images.githubusercontent.com/17035406/184684017-4b191515-90e5-4828-b872-f2f6daa38041.png)
+
+<br/> 
+After the PR has been merged, the site will rebuild and you should see a new page added after a few moments. It will look something like this: 
+
+![Example fellow page](/assets/homepage/examplefellow.png)
