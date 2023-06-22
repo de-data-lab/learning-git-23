@@ -15,18 +15,21 @@ I am excited to learn new ideas from such a diverse team and team leaders during
 ---
 
 ## What is your tech stack? 
-* Language/Technique 1
-* Language/Technique 2
-* Language/Technique n
+* Python, Pytorch, Tensorflow
+* Matlab
+* R
 
 ---
 
 ## What are your hobbies?  
-* Hobby 1
-* Hobby 2
-* Hobby 3
+* Hiking
+* Basketball
+* Travelling
 
 ---
 
 ## What are you reading/watching/cooking/building lately? 
-Lorem ipsum dolor sit amet.
+Book: Dune
+Tv Show: Better call Saul
+Cooking: Banana bread
+building: Object Detection with Raspberry Pi
