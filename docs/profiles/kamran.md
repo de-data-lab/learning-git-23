@@ -1,6 +1,6 @@
 ---
 layout: fellow # don't change this! 
-title: Kamran 
+title: Kamran M.
 position: Data Scientist Fellow
 hometown: PA, USA
 linkedin: https://www.linkedin.com/feed/ 
