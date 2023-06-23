@@ -5,7 +5,7 @@ position: Front-End Developer Fellow
 hometown: Middletown DE, USA
 linkedin: https://www.linkedin.com/in/leobardo-martinez/
 personal: https://ldmq.vercel.app/#/ # personal website/portfolio/other link
-image: /assets/headshots/danny.jpeg
+image: headshots/danny.jpeg
 --- 
 
 ## What are you most excited to learn or accomplish during your time at the Lab? 
